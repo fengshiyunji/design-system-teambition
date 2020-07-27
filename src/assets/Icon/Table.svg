@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Table</title>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+        <path d="M17,3.4 C17.3313708,3.4 17.6,3.66862915 17.6,4 L17.6,16.7272727 C17.6,17.0586436 17.3313708,17.3272727 17,17.3272727 L3,17.3272727 C2.66862915,17.3272727 2.4,17.0586436 2.4,16.7272727 L2.4,4 C2.4,3.66862915 2.66862915,3.4 3,3.4 L17,3.4 Z M6.854,9.054 L3.6,9.054 L3.6,16.1272727 L6.854,16.127 L6.854,9.054 Z M16.4,9.054 L8.054,9.054 L8.054,16.127 L16.4,16.1272727 L16.4,9.054 Z M16.4,4.6 L3.6,4.6 L3.6,7.854 L16.4,7.854 L16.4,4.6 Z" id="path-3"></path>
+    </defs>
+    <g id="Icon/Table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="icon-table"></g>
+        <mask id="mask-4" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <use id="icon-table" fill="#A6A6A6" fill-rule="nonzero" xlink:href="#path-3"></use>
+        <rect id="Color" fill="#333333" mask="url(#mask-4)" x="0" y="0" width="20" height="20"></rect>
+    </g>
+</svg>

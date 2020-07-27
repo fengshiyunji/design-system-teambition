@@ -1,0 +1,222 @@
+@import '../../styles/reset';
+
+.icon-block {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: $color-grey-5;
+    mask-size: cover;
+    mask-repeat: no-repeat;
+}
+
+.icon-up {
+    mask-image: url('../../assets/Icon/Arrow/Up.svg');
+}
+
+.icon-down {
+    mask-image: url('../../assets/Icon/Arrow/Down.svg');
+}
+
+.icon-left {
+    mask-image: url('../../assets/Icon/Arrow/Left.svg');
+}
+
+.icon-leftO {
+    mask-image: url('../../assets/Icon/Arrow/Left-o.svg');
+}
+
+.icon-right {
+    mask-image: url('../../assets/Icon/Arrow/Right.svg');
+}
+
+.icon-rightO {
+    mask-image: url('../../assets/Icon/Arrow/Right-o.svg');
+}
+
+.icon-board {
+    mask-image: url('../../assets/Icon/Board.svg');
+}
+
+.icon-calendar {
+    mask-image: url('../../assets/Icon/Calendar.svg');
+}
+
+.icon-cancel {
+    mask-image: url('../../assets/Icon/Cancel.svg');
+}
+
+.icon-chat {
+    mask-image: url('../../assets/Icon/Chat.svg');
+}
+
+.icon-check {
+    mask-image: url('../../assets/Icon/Check.svg');
+}
+
+.icon-clock {
+    mask-image: url('../../assets/Icon/Clock.svg');
+}
+
+.icon-copy {
+    mask-image: url('../../assets/Icon/Copy.svg');
+}
+
+.icon-cursor {
+    mask-image: url('../../assets/Icon/Cursor.svg');
+}
+
+.icon-dashboard {
+    mask-image: url('../../assets/Icon/Dashboard.svg');
+}
+
+.icon-description {
+    mask-image: url('../../assets/Icon/Description.svg');
+}
+
+.icon-edit {
+    mask-image: url('../../assets/Icon/Edit.svg');
+}
+
+.icon-emoji {
+    mask-image: url('../../assets/Icon/Emoji.svg');
+}
+
+.icon-eye {
+    mask-image: url('../../assets/Icon/Eye.svg');
+}
+
+.icon-file {
+    mask-image: url('../../assets/Icon/File.svg');
+}
+
+.icon-folder {
+    mask-image: url('../../assets/Icon/Folder.svg');
+}
+
+.icon-groupChat {
+    mask-image: url('../../assets/Icon/Groupchat.svg');
+}
+
+.icon-home {
+    mask-image: url('../../assets/Icon/Home.svg');
+}
+
+.icon-inbox {
+    mask-image: url('../../assets/Icon/Inbox.svg');
+}
+
+.icon-information {
+    mask-image: url('../../assets/Icon/Information.svg');
+}
+
+.icon-menu {
+    mask-image: url('../../assets/Icon/Menu.svg');
+}
+
+.icon-more {
+    mask-image: url('../../assets/Icon/More.svg');
+}
+
+.icon-move {
+    mask-image: url('../../assets/Icon/Move.svg');
+}
+
+.icon-picture {
+    mask-image: url('../../assets/Icon/Picture.svg');
+}
+
+.icon-piechart {
+    mask-image: url('../../assets/Icon/Piechart.svg');
+}
+
+.icon-plus {
+    mask-image: url('../../assets/Icon/Plus.svg');
+}
+
+.icon-plus {
+    mask-image: url('../../assets/Icon/Plus.svg');
+}
+
+.icon-pointer {
+    mask-image: url('../../assets/Icon/Pointer.svg');
+}
+
+.icon-post {
+    mask-image: url('../../assets/Icon/Post.svg');
+}
+
+.icon-project {
+    mask-image: url('../../assets/Icon/Project.svg');
+}
+
+.icon-question {
+    mask-image: url('../../assets/Icon/Question.svg');
+}
+
+.icon-relation {
+    mask-image: url('../../assets/Icon/Relation.svg');
+}
+
+.icon-remove {
+    mask-image: url('../../assets/Icon/Remove.svg');
+}
+
+.icon-search {
+    mask-image: url('../../assets/Icon/Search.svg');
+}
+
+.icon-share {
+    mask-image: url('../../assets/Icon/Share.svg');
+}
+
+.icon-sitting {
+    mask-image: url('../../assets/Icon/Sitting.svg');
+}
+
+.icon-star {
+    mask-image: url('../../assets/Icon/Star.svg');
+}
+
+.icon-stroke {
+    mask-image: url('../../assets/Icon/Stroke.svg');
+}
+
+.icon-table {
+    mask-image: url('../../assets/Icon/Table.svg');
+}
+
+.icon-task {
+    mask-image: url('../../assets/Icon/Task.svg');
+}
+
+.icon-text {
+    mask-image: url('../../assets/Icon/Text.svg');
+}
+
+.icon-tick {
+    mask-image: url('../../assets/Icon/Tick.svg');
+}
+
+.icon-trash {
+    mask-image: url('../../assets/Icon/Trash.svg');
+}
+
+.icon-uploadFile {
+    mask-image: url('../../assets/Icon/Uploadfile.svg');
+}
+
+.icon-user {
+    mask-image: url('../../assets/Icon/User.svg');
+}
+
+.icon-users {
+    mask-image: url('../../assets/Icon/Users.svg');
+}
+
+.icon-wall {
+    mask-image: url('../../assets/Icon/Wall.svg');
+}
+
+.icon-warning {
+    mask-image: url('../../assets/Icon/Warning.svg');
+}

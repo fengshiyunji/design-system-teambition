@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Information</title>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+        <path d="M10,14.3444 C9.558,14.3444 9.2,13.9864 9.2,13.5444 C9.2,13.1024 9.558,12.7444 10,12.7444 C10.442,12.7444 10.8,13.1024 10.8,13.5444 C10.8,13.9864 10.442,14.3444 10,14.3444 L10,14.3444 Z M9.401,6.2574 C9.401,5.9254 9.669,5.6574 10.001,5.6574 C10.332,5.6574 10.601,5.9254 10.601,6.2574 L10.601,11.0574 C10.601,11.3884 10.332,11.6574 10.001,11.6574 C9.669,11.6574 9.401,11.3884 9.401,11.0574 L9.401,6.2574 L9.401,6.2574 Z M10,2.0004 C5.582,2.0004 2,5.5824 2,10.0004 C2,14.4194 5.582,18.0004 10,18.0004 C14.418,18.0004 18,14.4194 18,10.0004 C18,5.5824 14.418,2.0004 10,2.0004 L10,2.0004 Z" id="path-3"></path>
+    </defs>
+    <g id="Icon/Information" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask" transform="translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) "></g>
+        <mask id="mask-4" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <use id="icon-info" fill="#A6A6A6" transform="translate(10.000000, 10.000400) rotate(180.000000) translate(-10.000000, -10.000400) " xlink:href="#path-3"></use>
+        <rect id="Color" fill="#333333" mask="url(#mask-4)" transform="translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) " x="0" y="0" width="20" height="20"></rect>
+    </g>
+</svg>
