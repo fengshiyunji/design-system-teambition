@@ -2,7 +2,7 @@ import React from 'react';
 import './icon.scss';
 
 const Icon = ({ size, icon, color }) => (
-    <div className={`icon-block icon-${icon}`}
+    <span role="img" aria-label="message" className={`icon-block anticon anticon-message icon-${icon}`}
         style={{ 
             height: `${size}px`, 
             width: `${size}px`,

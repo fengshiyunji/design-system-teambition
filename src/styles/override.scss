@@ -1,0 +1,76 @@
+@import './reset';
+
+/** Button **/
+.ant-btn-primary {
+    background: $color-blue-3;
+    border-color: $color-blue-3;
+
+    &:hover,
+    &:focus {
+        background: $color-blue-4;
+        border-color: $color-blue-4;
+    }
+
+    &:active {
+        background: $color-blue-5;
+        border-color: $color-blue-5;
+    }
+}
+
+.ant-btn-primary[disabled],
+.ant-btn-primary[disabled]:hover,
+.ant-btn-primary[disabled]:focus,
+.ant-btn-primary[disabled]:active {
+    color: $color-grey-0;
+    background: $color-grey-2;
+    border-color: $color-grey-2;
+}
+
+.ant-btn-default {
+    color: $color-blue-3;
+    background: $color-grey-0;
+    border-color: $color-blue-1;
+
+    &:hover,
+    &:focus {
+        background: $color-blue-1;
+        border-color: $color-blue-1;
+    }
+
+    &:active {
+        background: $color-blue-3;
+        border-color: $color-blue-3;
+    }
+}
+
+.ant-btn-default[disabled],
+.ant-btn-default[disabled]:hover,
+.ant-btn-default[disabled]:focus,
+.ant-btn-default[disabled]:active {
+    background: $color-grey-0;
+    border-color: $color-grey-2;
+}
+
+.ant-btn-text {
+    color: $color-blue-3;
+    background-color: $color-grey-0;
+
+    &:hover,
+    &:focus {
+        color: $color-blue-4;
+        background-color: $color-grey-0;
+    }
+
+    &:active {
+        color: $color-blue-5;
+        background-color: $color-grey-0;
+    }
+}
+
+.ant-btn-text[disabled],
+.ant-btn-text[disabled]:hover,
+.ant-btn-text[disabled]:focus,
+.ant-btn-text[disabled]:active {
+    color: $color-grey-2;
+    background-color: $color-grey-0;
+}
