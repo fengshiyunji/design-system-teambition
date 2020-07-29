@@ -1,0 +1,48 @@
+@import '../../styles/reset';
+
+.tb-tabs {
+    display: inline-flex;
+    border-radius: 6px;
+    background-color: $color-grey-1;
+    padding: 2px;
+    font-size: $font-size-3;
+    font-weight: $font-weight-bold;
+}
+
+.tb-tab {
+    border-style: none;
+    border-color: $color-grey-1;
+    background-color: $color-grey-1;
+    padding: 7px 18px;
+    color: $color-grey-3;
+    margin-right: 1px;
+    display: inline-flex;
+    align-items: center;
+
+    &.active {
+        background-color: $color-grey-0;
+        color: $color-grey-5;
+        border-radius: 6px;
+    }
+    &:hover {
+        color: $color-grey-5;
+    }
+    &:focus {
+        border-color: $color-blue-1;
+        border-radius: 6px;
+    }
+}
+
+::selection {
+    background: $color-blue-1;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: $color-blue-1;
+    text-shadow: none;
+}
+
+.tb-tab-margin {
+    margin-left: 8px;
+}

@@ -1,0 +1,24 @@
+@import '../../styles/reset';
+
+.tb-progress {
+    position: relative;
+    font-size: $font-size-4;
+    
+    .tb-progress-text {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .ant-progress-text {
+        display: none;
+    }
+
+    .ant-progress-show-info .ant-progress-outer {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+.ant-progress-circle-trail {
+    stroke: $color-grey-1;
+}
