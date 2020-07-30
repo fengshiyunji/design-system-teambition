@@ -74,3 +74,14 @@
     color: $color-grey-2;
     background-color: $color-grey-0;
 }
+
+/** Input **/
+.ant-input {
+    border-color: $color-grey-2;
+    color: $color-grey-5;
+}
+
+.ant-input[disabled]{
+    background-color: $color-grey-1;
+}
+
