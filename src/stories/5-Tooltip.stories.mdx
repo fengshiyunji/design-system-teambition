@@ -1,0 +1,28 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Tooltip } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Tooltip" component={Tooltip} />
+
+# Tooltip
+
+A simple text popup tip.
+
+## Basic Tooltip
+
+We have tooltips in four position: `top`, `bottom`, `left`, `right`.
+
+<Preview>
+    <Tooltip placement='top' title="tooltip on top">
+        <span className='tooltip-item'>Top</span>
+    </Tooltip>
+    <Tooltip placement='bottom' title="tooltip on bottom">
+        <span className='tooltip-item'>Bottom</span>
+    </Tooltip>
+    <Tooltip placement='left' title="tooltip on left">
+        <span className='tooltip-item'>Left</span>
+    </Tooltip>
+    <Tooltip placement='right' title="tooltip on right">
+        <span className='tooltip-item'>Right</span>
+    </Tooltip>
+</Preview>

@@ -1,0 +1,75 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Button, Icon } from '../components';
+import { action } from '@storybook/addon-actions';
+import '../styles/stories.scss';
+
+<Meta title="components/Button" component={Button} />
+
+# Button
+
+Buttons allow users to take actions, and make choices, with a single tap.
+
+## Button Types
+
+<Preview>
+    <Button type='primary' onClick={action('clicked')}>
+        Primary Button
+    </Button>
+    <Button type='default' onClick={action('clicked')}>
+        Secondary Button
+    </Button>
+    <Button type='text' onClick={action('clicked')}>
+        Text Button
+    </Button>
+</Preview>
+
+## Disable Button
+
+<Preview>
+    <Button type='primary' disabled onClick={action('clicked')}>
+        Primary Button
+    </Button>
+    <Button type='default' disabled onClick={action('clicked')}>
+        Secondary Button
+    </Button>
+    <Button type='text' disabled onClick={action('clicked')}>
+        Text Button
+    </Button>
+</Preview>
+
+## Loading Button
+
+<Preview>
+    <Button type='primary' loading>
+        Primary Button
+    </Button>
+    <Button type='default' loading>
+        Secondary Button
+    </Button>
+    <Button type='text' loading>
+        Text Button
+    </Button>
+</Preview>
+
+## Button with Icon
+
+<Preview>
+    <Button
+        icon={<Icon icon='plus' color='white' />}
+        type='primary'
+    >
+        Primary Button
+    </Button>
+    <Button
+        icon={<Icon icon='emoji' color='#1b9aee' />}
+        type='default'
+    >
+        Secondary Button
+    </Button>
+    <Button
+        icon={<Icon icon='groupChat' color='#1b9aee' />}
+        type='text'
+    >
+        Text Button
+    </Button>
+</Preview>

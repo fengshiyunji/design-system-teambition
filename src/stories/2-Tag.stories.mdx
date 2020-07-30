@@ -1,0 +1,30 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Tag, Icon } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Tag" component={Tag} />
+
+# Tag
+
+Tag for categorizing or markup.
+
+## Preseted Tags
+
+We have five types of preseted tags types: `blue`, `green`, `red`, `orange`, `grey`.
+
+<Preview>
+    <Tag type='blue'>Blue Tag</Tag>
+    <Tag type='green'>Green Tag</Tag>
+    <Tag type='red'>Red Tag</Tag>
+    <Tag type='orange'>Orange Tag</Tag>
+    <Tag type='grey'>Grey Tag</Tag>
+</Preview>
+
+## Custom Tag
+
+We can create custom tag by pass `color` or `bgColor` in.
+
+<Preview>
+    <Tag color='orange'>Custom Tag 1</Tag>
+    <Tag color='#e62412' bgColor='yellow'>Custom Tag 2</Tag>
+</Preview>

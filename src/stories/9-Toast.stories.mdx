@@ -1,0 +1,20 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Toast } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Toast" />
+
+# Toast
+
+Display a toast to give a notification.
+
+We have for types: `info`, `warning`, `error`, `success`.
+
+## Basic Message
+
+<Preview>
+    <Toast type='info' text='This is a info toast!' />
+    <Toast type='warning' text='This is a warning toast!' />
+    <Toast type='error' text='This is a error toast!' />
+    <Toast type='success' text='This is a success toast!' />
+</Preview>

@@ -55,7 +55,7 @@ const Tabs = ({ children }) => {
             <div className='tb-tabs'>
                 {renderChildrenWithTabsApiAsProps()}
             </div>
-            <div>{renderActiveTabContent()}</div>
+            <div className='tb-content'>{renderActiveTabContent()}</div>
         </>
     );
 };

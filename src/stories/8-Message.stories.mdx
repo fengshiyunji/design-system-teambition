@@ -1,0 +1,20 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Message } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Message" />
+
+# Message
+
+Display global messages as feedback in response to user operations.
+
+We have four types: `info`, `warning`, `error`, `success`.
+
+## Basic Message
+
+<Preview>
+    <Message type='info' text='This is a info message!' />
+    <Message type='warning' text='This is a warn message!' />
+    <Message type='error' text='This is a error message!' />
+    <Message type='success' text='This is a success message!' />
+</Preview>

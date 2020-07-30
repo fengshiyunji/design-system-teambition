@@ -1,0 +1,31 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Progress } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Progress" component={Progress} />
+
+# Progress
+
+Display the current progress of an operation flow.
+
+We have two types: `line` (default type), `circle`
+
+## Line Progress
+
+<Preview>
+    <Progress percent={0} title='项目进度' />
+    <Progress percent={25} title='项目进度' strokeColor='#87d2ff'/>
+    <Progress percent={50} title='项目进度' strokeColor='#ffa941' />
+    <Progress percent={75} title='项目进度' strokeColor='#f87872' />
+    <Progress percent={100} title='项目进度' strokeColor='#64d16d' />
+</Preview>
+
+## Circle Progress
+
+<Preview>
+    <Progress type="circle" percent={0}   />
+    <Progress type="circle" percent={25} strokeColor='#87d2ff' />
+    <Progress type="circle" percent={50} strokeColor='#ffa941' />
+    <Progress type="circle" percent={75} strokeColor='#f87872' />
+    <Progress type="circle" percent={100} strokeColor='#64d16d' />
+</Preview>

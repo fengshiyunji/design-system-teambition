@@ -1,0 +1,27 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Input } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Input" component={Input} />
+
+# Input
+
+A basic widget for getting the user input is a text field. Keyboard and mouse can be used for providing or changing data.
+
+## Basic Input
+
+<Preview>
+    <Input placeholder="Basic usage" />
+</Preview>
+
+## Disabled Input
+
+<Preview>
+    <Input placeholder="Basic usage" disabled />
+</Preview>
+
+## Error Input
+
+<Preview>
+    <Input placeholder="Basic usage" error errorText="input error" />
+</Preview>

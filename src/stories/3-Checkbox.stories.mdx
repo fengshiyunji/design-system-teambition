@@ -1,0 +1,23 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Checkbox } from '../components';
+import '../styles/stories.scss';
+
+<Meta title="components/Checkbox" component={Checkbox} />
+
+# Checkbox
+
+Checkbox component.
+
+## Basic Checkbox
+
+<Preview>
+    {/* <Checkbox onChange={onChange}>Checkbox</Checkbox>
+    <Checkbox onChange={onChange}></Checkbox> */}
+</Preview>
+
+## Disabled Checkbox
+
+<Preview>
+    <Checkbox defaultChecked={false} disabled />
+    <Checkbox defaultChecked disabled />
+</Preview>
