@@ -1,0 +1,36 @@
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import  FontBlock from '../templates/fontBlock';
+import '../styles/stories.scss';
+
+<Meta title="Font" component={FontBlock} />
+
+# Font
+
+The font system is one of the most foundational parts of any interface design.
+
+## Font Family
+
+<Preview>
+    <FontBlock title="Engligh: Montserrat" fontFamily="Montserrat"></FontBlock>
+    <FontBlock title="中文: 苹方(PingFangSC)" fontFamily="PingFangSC"></FontBlock>
+    <FontBlock title="Number: DINAlternate, i.e 123" fontFamily="DINAlternate"></FontBlock>
+</Preview>
+
+## Font Size
+
+<Preview>
+    <FontBlock title="24px" fontSize="24px"></FontBlock>
+    <FontBlock title="20px" fontSize="20px"></FontBlock>
+    <FontBlock title="16px" fontSize="16px"></FontBlock>
+    <FontBlock title="14px" fontSize="14px"></FontBlock>
+    <FontBlock title="12px" fontSize="12px"></FontBlock>
+    <FontBlock title="10px" fontSize="10px"></FontBlock>
+</Preview>  
+
+## Font Weight
+
+<Preview>
+    <FontBlock title="normal" fontWeight="400"></FontBlock>
+    <FontBlock title="medium" fontWeight="500"></FontBlock>
+    <FontBlock title="bold" fontWeight="600"></FontBlock>
+</Preview>

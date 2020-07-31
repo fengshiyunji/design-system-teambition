@@ -11,13 +11,17 @@ Checkbox component.
 ## Basic Checkbox
 
 <Preview>
-    {/* <Checkbox onChange={onChange}>Checkbox</Checkbox>
-    <Checkbox onChange={onChange}></Checkbox> */}
+    <Checkbox defaultChecked={false} onChange={(e)=> { console.log(`checked = ${e.target.checked}`) } }>
+        Checkbox1
+    </Checkbox>
+    <Checkbox defaultChecked onChange={(e)=> { console.log(`checked = ${e.target.checked}`) } }>
+        Checkbox2
+    </Checkbox>
 </Preview>
 
 ## Disabled Checkbox
 
 <Preview>
-    <Checkbox defaultChecked={false} disabled />
-    <Checkbox defaultChecked disabled />
+    <Checkbox defaultChecked={false} disabled > Disabled Checkbox1 </Checkbox>
+    <Checkbox defaultChecked disabled > Disabled Checkbox2 </Checkbox>
 </Preview>
